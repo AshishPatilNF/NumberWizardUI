@@ -16,4 +16,16 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            QuitApp();
+        }
+    }
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }

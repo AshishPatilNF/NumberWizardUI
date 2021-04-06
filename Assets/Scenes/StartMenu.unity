@@ -353,8 +353,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Welcome!!!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
-  m_sharedMaterial: {fileID: 6104343786609254992, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
+  m_sharedMaterial: {fileID: 1717397332575304458, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -378,8 +378,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -593,7 +593,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 697421605}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7988757498862901192, guid: d04fcc94979b7e0409b4b4abeaec7e4c, type: 3}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: QuitApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697421605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1280,8 +1292,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: 85}
-  m_SizeDelta: {x: 1025, y: 100}
+  m_AnchoredPosition: {x: 25, y: 75}
+  m_SizeDelta: {x: 1220, y: 100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2118350842
 MonoBehaviour:
@@ -1305,8 +1317,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pick a number between 1 and 1000.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
-  m_sharedMaterial: {fileID: 6104343786609254992, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
+  m_sharedMaterial: {fileID: 1717397332575304458, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1330,8 +1342,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 76
-  m_fontSizeBase: 76
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

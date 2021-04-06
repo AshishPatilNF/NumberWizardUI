@@ -24,8 +24,7 @@ public class NumberWizardConsole : MonoBehaviour
 
     void StartGame()
     {
-        guess = ((maximum + minimum) / 2);
-        text.text = guess.ToString();
+        NextGuess();
     }
 
     void Update()
@@ -46,19 +45,41 @@ public class NumberWizardConsole : MonoBehaviour
 
     void NextGuess()
     {
-        guess = (maximum + minimum) / 2;
+        guess = Random.Range(maximum, minimum);
         text.text = guess.ToString();
     }
 
     public void OnPressHigher()
     {
-        minimum = guess + 1;
-        NextGuess();
+        if (guess == 1000)
+        {
+            guess = 1000;
+        }
+        else if (guess == 1)
+        {
+            guess = 1;
+        }
+        else
+        {
+            minimum = guess + 1;
+            NextGuess();
+        }
     }
 
     public void OnPressLower()
     {
-        maximum = guess;
-        NextGuess();
+        if (guess == 1000)
+        {
+            guess = 1000;
+        }
+        else if (guess == 1)
+        {
+            guess = 1;
+        }
+        else
+        {
+            maximum = guess - 1;
+            NextGuess();
+        }
     }
 }

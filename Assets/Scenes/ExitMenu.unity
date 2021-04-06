@@ -458,7 +458,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 697421605}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7988757498862901192, guid: d04fcc94979b7e0409b4b4abeaec7e4c, type: 3}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: QuitApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697421605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,10 +909,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: We told you we am a Genius
+  m_text: Genius!!!! Let's Play Again
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
-  m_sharedMaterial: {fileID: 6104343786609254992, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
+  m_sharedMaterial: {fileID: 1717397332575304458, guid: edddef9b5528e2c4f8bd1f4a98b22655, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
