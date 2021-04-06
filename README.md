@@ -11,9 +11,9 @@ The game asks the user to pick a number and then tries to guess it based on the 
 
 2. Press "Down Arrow Key" or the "Lower Button" if the number is Lower then the current guess.
 
-If the number is the current guess then the user has to press the " Return/Enter Key " or the "Success Button".
+3. Press " Return/Enter Key " or the "Success Button" if the number is the current guess.
 
-The user can "Quit" the game at any given time by pressing the "Q key" or the "Quit Button".
+4. The user can "Quit" the game at any given time by pressing the "Q key" or the "Quit Button".
 
 This project was developed for the better understanding of Unity Engine's Buttons, Scene loading, TextMeshPro and Basics of C#.
 
