@@ -153,13 +153,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 278575292}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 300, y: -250}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350, y: 185}
   m_SizeDelta: {x: 950, y: 220}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &250459679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I will attempt to guess your number now.
+  m_text: We will attempt to guess your number now.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
   m_sharedMaterial: {fileID: 6104343786609254992, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
@@ -207,8 +207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 85
-  m_fontSizeBase: 85
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -352,12 +352,11 @@ RectTransform:
   - {fileID: 1325716233}
   - {fileID: 717813821}
   - {fileID: 1135158490}
+  - {fileID: 250459678}
+  - {fileID: 1837286390}
   - {fileID: 1561118425}
   - {fileID: 2069217450}
   - {fileID: 697421603}
-  - {fileID: 1837286390}
-  - {fileID: 250459678}
-  - {fileID: 2108463877}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -547,11 +546,11 @@ RectTransform:
   m_Children:
   - {fileID: 1792007030}
   m_Father: {fileID: 278575292}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -119.99994, y: 162.49994}
+  m_AnchoredPosition: {x: -120, y: 160}
   m_SizeDelta: {x: 450, y: 175}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &697421604
@@ -576,9 +575,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
-    m_HighlightedColor: {r: 0.3372549, g: 0.25490198, b: 0.6431373, a: 1}
-    m_PressedColor: {r: 0.07058824, g: 0.08235294, b: 0.49019608, a: 1}
-    m_SelectedColor: {r: 0.654902, g: 0.30980393, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_PressedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_SelectedColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -597,7 +596,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 697421605}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7988757498862901192, guid: d04fcc94979b7e0409b4b4abeaec7e4c, type: 3}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadNextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697421605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -670,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -34.999878, y: -6}
+  m_AnchoredPosition: {x: -35, y: -6}
   m_SizeDelta: {x: 1200, y: 195}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &717813822
@@ -938,7 +949,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 49.999878, y: 69.99994}
+  m_AnchoredPosition: {x: 50, y: 70}
   m_SizeDelta: {x: 650, y: 900}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1135158491
@@ -1007,7 +1018,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2108463877}
   m_Father: {fileID: 278575292}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1086,7 +1098,7 @@ RectTransform:
   m_Children:
   - {fileID: 1706662419}
   m_Father: {fileID: 278575292}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1115,9 +1127,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
-    m_HighlightedColor: {r: 0.3372549, g: 0.25490198, b: 0.6431373, a: 1}
-    m_PressedColor: {r: 0.07058824, g: 0.08235294, b: 0.49019608, a: 1}
-    m_SelectedColor: {r: 0.654902, g: 0.30980393, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_PressedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_SelectedColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1455,7 +1467,7 @@ GameObject:
   - component: {fileID: 1837286392}
   - component: {fileID: 1837286391}
   m_Layer: 5
-  m_Name: Current Guess
+  m_Name: CurrentGuessMessage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,7 +1485,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 278575292}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1611,7 +1623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -55.00006, y: -84.99999}
+  m_AnchoredPosition: {x: -55, y: -85}
   m_SizeDelta: {x: 1150, y: 800}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &2051623751
@@ -1684,7 +1696,7 @@ RectTransform:
   m_Children:
   - {fileID: 766882654}
   m_Father: {fileID: 278575292}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1713,9 +1725,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
-    m_HighlightedColor: {r: 0.3372549, g: 0.25490198, b: 0.6431373, a: 1}
-    m_PressedColor: {r: 0.07058824, g: 0.08235294, b: 0.49019608, a: 1}
-    m_SelectedColor: {r: 0.654902, g: 0.30980393, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_PressedColor: {r: 0.47058824, g: 0.1254902, b: 0.5647059, a: 1}
+    m_SelectedColor: {r: 0.04705883, g: 0.07058824, b: 0.14901961, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1798,17 +1810,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108463876}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 278575292}
-  m_RootOrder: 9
+  m_Father: {fileID: 1325716233}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 40.00003, y: -192.5}
-  m_SizeDelta: {x: 450, y: 175}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108463878
 MonoBehaviour:
@@ -1832,8 +1844,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
-  m_sharedMaterial: {fileID: 6104343786609254992, guid: 721e249973e88f94b831e5cc7852d997, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1857,8 +1869,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 80
-  m_fontSizeBase: 80
+  m_fontSize: 150
+  m_fontSizeBase: 150
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
