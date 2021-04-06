@@ -1,13 +1,15 @@
 # NumberWizardUI
-### Learning Game Development Project 3
+## Learning Game Development Project 3
 
-NumberWizardUI is a Game developed to play in the Unity console.
+NumberWizardUI is a Number guessing game.
 
 The game asks the user to pick a number and then tries to guess it based on the user input.
 
-If the number is Higher then the current guess the user has to press the " Up Arrow Key " or the "Higher Button".
+### Controls:
 
-If the number is Lower then the current guess the user has to press the " Down Arrow Key " or the "Lower Button".
+1. Press "Up Arrow Key" or the "Higher Button" if the number is Higher then the current guess.
+
+2. Press "Down Arrow Key" or the "Lower Button" if the number is Lower then the current guess.
 
 If the number is the current guess then the user has to press the " Return/Enter Key " or the "Success Button".
 
