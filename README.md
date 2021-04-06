@@ -1,5 +1,5 @@
 # NumberWizardUI
-Learning Game Development Project 3
+### Learning Game Development Project 3
 
 NumberWizardUI is a Game developed to play in the Unity console.
 
