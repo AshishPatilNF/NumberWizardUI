@@ -15,6 +15,6 @@ The game asks the user to pick a number and then tries to guess it based on the 
 
 4. The user can "Quit" the game at any given time by pressing the "Q key" or the "Quit Button".
 
-This project was developed for the better understanding of Unity Engine's Buttons, Scene loading, TextMeshPro, UI Elements and Basics of C#.
+This project was developed for the better understanding of Unity Engine's Buttons, SceneManagement, TextMeshPro, UI Elements and Basics of C#.
 
 This project was developed as a part of the Udemy course "Complete C# Unity Game Developer 2D" under the guidance of Rick Davidson and Ben Tristem.
